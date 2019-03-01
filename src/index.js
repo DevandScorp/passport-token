@@ -10,17 +10,17 @@ import SignUp from './components/SignUp';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <div>
       <div className="header">
-        <div><a href="/passport-token/">Home</a></div>
-        <div><a href="/passport-token/user">User</a></div>
-        <div><a href="/passport-token/signup">Sign Up</a></div>
+        <div><a href="/">Home</a></div>
+        <div><a href="/user">User</a></div>
+        <div><a href="/signup">Sign Up</a></div>
       </div>
 
-      <Route exact path="/passport-token/" component={App} />
-      <Route path="/passport-token/user" component={User} />
-      <Route path="/passport-token/signup" component={SignUp} />
+      <Route exact path="/" component={App} />
+      <Route exact path="/user" component={User} />
+      <Route exact path="/signup" component={SignUp} />
     </div>
   </Router>
 );
