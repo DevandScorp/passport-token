@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/passport-token/static/js/runtime~main.838a6dba.js"
   },
   {
-    "revision": "2e1c638c494431d8ea04",
-    "url": "/passport-token/static/js/main.2e1c638c.chunk.js"
+    "revision": "24861fd4f229d49834b5",
+    "url": "/passport-token/static/js/main.24861fd4.chunk.js"
   },
   {
     "revision": "ac50e1aca5fdd7c98290",
     "url": "/passport-token/static/js/2.ac50e1ac.chunk.js"
   },
   {
-    "revision": "2e1c638c494431d8ea04",
+    "revision": "24861fd4f229d49834b5",
     "url": "/passport-token/static/css/main.0f9b9fcf.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/passport-token/static/css/2.23d471b5.chunk.css"
   },
   {
-    "revision": "83fa92c6a1e9cf2e2233bdae7857337b",
+    "revision": "8a0b30660ff5df445c70dc14ece037da",
     "url": "/passport-token/index.html"
   }
 ];
