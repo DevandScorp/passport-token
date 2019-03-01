@@ -13,14 +13,14 @@ const routing = (
   <Router>
     <div>
       <div className="header">
-        <div><a href="/">Home</a></div>
-        <div><a href="/user">User</a></div>
-        <div><a href="/signup">Sign Up</a></div>
+        <div><a href="/passport-token/">Home</a></div>
+        <div><a href="/passport-token/user">User</a></div>
+        <div><a href="/passport-token/signup">Sign Up</a></div>
       </div>
 
-      <Route exact path="/" component={App} />
-      <Route path="/user" component={User} />
-      <Route path="/signup" component={SignUp} />
+      <Route exact path="/passport-token/" component={App} />
+      <Route path="/passport-token/user" component={User} />
+      <Route path="/passport-token/signup" component={SignUp} />
     </div>
   </Router>
 );
