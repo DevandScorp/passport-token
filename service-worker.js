@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/passport-token/precache-manifest.72970ea593a0d88692d169a299d79287.js"
+  "/passport-token/precache-manifest.e95ebceda53e415679aecc10d646fe3e.js"
 );
 
 workbox.clientsClaim();
